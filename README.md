@@ -1,150 +1,164 @@
-<img align="left" style="width:260px" src="https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif" width="288px">
-
-**raylib is a simple and easy-to-use library to enjoy videogames programming.**
-
-raylib is highly inspired by Borland BGI graphics lib and by XNA framework and it's especially well suited for prototyping, tooling, graphical applications, embedded systems and education.
-
-*NOTE for ADVENTURERS: raylib is a programming library to enjoy videogames programming; no fancy interface, no visual helpers, no debug button... just coding in the most pure spartan-programmers way.*
-
-Ready to learn? Jump to [code examples!](https://www.raylib.com/examples.html)
-
----
-
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><animated-image data-catalyst="" style="float: left; width: 288px;"><a target="_blank" rel="noopener noreferrer" href="https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif" data-target="animated-image.originalLink"><img align="left" style="width: 260px; max-width: 100%; display: inline-block;" src="https://github.com/raysan5/raylib/raw/master/logo/raylib_logo_animation.gif" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="raylib_logo_animation.gif" class="AnimatedImagePlayer-animatedImage" src="https://github.com/raysan5/raylib/raw/master/logo/raylib_logo_animation.gif" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="288" height="288"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="播放 raylib_logo_animation.gif" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="播放 raylib_logo_animation.gif">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="在新窗口中打开 raylib_logo_animation.gif" class="AnimatedImagePlayer-button" href="https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib 是一个简单易用的库，可让您享受视频游戏编程的乐趣。</font></font></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib 深受 Borland BGI 图形库和 XNA 框架的启发，它特别适合原型设计、工具、图形应用程序、嵌入式系统和教育。</font></font></p>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">冒险家注意事项：raylib 是一个享受视频游戏编程的编程库；</font><font style="vertical-align: inherit;">没有花哨的界面，没有可视化助手，没有调试按钮......只是以最纯粹的斯巴达程序员的方式进行编码。</font></font></em></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">准备好学习了吗？</font><font style="vertical-align: inherit;">跳转到</font></font><a href="https://www.raylib.com/examples.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码示例！</font></font></a></p>
+<hr>
 <br>
+<p dir="auto"><a href="https://github.com/raysan5/raylib/releases"><img src="https://camo.githubusercontent.com/f37ae64da925f95f75ea0a4571a493a30703d199a224fe4036ddf3c722c9c5e6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f72617973616e352f7261796c69622f746f74616c" alt="GitHub 发布下载" data-canonical-src="https://img.shields.io/github/downloads/raysan5/raylib/total" style="max-width: 100%;"></a>
+<a href="https://github.com/raysan5/raylib/stargazers"><img src="https://camo.githubusercontent.com/9d1b05bcc6244c1ad5308d0697df8b29688e2365aa7fcd257d7733e32365dcc2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f72617973616e352f7261796c69623f7374796c653d666c6174266c6162656c3d7374617273" alt="GitHub 之星" data-canonical-src="https://img.shields.io/github/stars/raysan5/raylib?style=flat&amp;label=stars" style="max-width: 100%;"></a>
+<a href="https://github.com/raysan5/raylib/commits/master"><img src="https://camo.githubusercontent.com/57f47f71af62ec905970fdc4e9c64ed9d17ba0b9f42e13b0a25ec5dfdf606598/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6d6d6974732d73696e63652f72617973616e352f7261796c69622f342e352e30" alt="自标记版本以来 GitHub 提交" data-canonical-src="https://img.shields.io/github/commits-since/raysan5/raylib/4.5.0" style="max-width: 100%;"></a>
+<a href="https://github.com/sponsors/raysan5"><img src="https://camo.githubusercontent.com/d1788ff66187d90494804351853ec5ee89354f06ca228338612a255ce2aed91a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73706f6e736f72732f72617973616e353f6c6162656c3d73706f6e736f7273" alt="GitHub 赞助商" data-canonical-src="https://img.shields.io/github/sponsors/raysan5?label=sponsors" style="max-width: 100%;"></a>
+<a href="https://repology.org/project/raylib/versions" rel="nofollow"><img src="https://camo.githubusercontent.com/95527d580906d94c1ef831d1b3d99b7a41e916ba6e3ef1ea6d9315e87bef6dd3/68747470733a2f2f7265706f6c6f67792e6f72672f62616467652f74696e792d7265706f732f7261796c69622e737667" alt="包装状态" data-canonical-src="https://repology.org/badge/tiny-repos/raylib.svg" style="max-width: 100%;"></a>
+<a href="/raysan5/raylib/blob/master/LICENSE"><img src="https://camo.githubusercontent.com/b8326642171a15df0b02e9d6a53077c39f52c93b51ce897c61334797d993a714/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d7a6c69622532466c6962706e672d626c75652e737667" alt="执照" data-canonical-src="https://img.shields.io/badge/license-zlib%2Flibpng-blue.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://discord.gg/raylib" rel="nofollow"><img src="https://camo.githubusercontent.com/e08173fd72c112b21cfd3e21be7d7fea3f77c9879f67bbd2a4f0f109f13b6e59/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3432363931323239333133343237303436352e7376673f6c6162656c3d446973636f7264266c6f676f3d646973636f7264" alt="不和谐成员" data-canonical-src="https://img.shields.io/discord/426912293134270465.svg?label=Discord&amp;logo=discord" style="max-width: 100%;"></a>
+<a href="https://www.reddit.com/r/raylib/" rel="nofollow"><img src="https://camo.githubusercontent.com/e983406ba88e817b4d205f84013d453e9cdb4cbebba5a13c82048f521d26b58e/68747470733a2f2f696d672e736869656c64732e696f2f7265646469742f7375627265646469742d73756273637269626572732f7261796c69623f6c6162656c3d726564646974253230722532467261796c6962266c6f676f3d726564646974" alt="Reddit 子版块订阅者" data-canonical-src="https://img.shields.io/reddit/subreddit-subscribers/raylib?label=reddit%20r%2Fraylib&amp;logo=reddit" style="max-width: 100%;"></a>
+<a href="https://www.youtube.com/c/raylib" rel="nofollow"><img src="https://camo.githubusercontent.com/9c060842b2d40dc62d0257a4bb9a3945f6a0ed17986592b3d676bc45f3f5d051/68747470733a2f2f696d672e736869656c64732e696f2f796f75747562652f6368616e6e656c2f73756273637269626572732f5543385749426b6859623573424e71584f316d5a375753513f7374796c653d666c6174266c6162656c3d596f7574756265266c6f676f3d796f7574756265" alt="YouTube 订阅者" data-canonical-src="https://img.shields.io/youtube/channel/subscribers/UC8WIBkhYb5sBNqXO1mZ7WSQ?style=flat&amp;label=Youtube&amp;logo=youtube" style="max-width: 100%;"></a>
+<a href="https://www.twitch.tv/raysan5" rel="nofollow"><img src="https://camo.githubusercontent.com/b6c4d69ab5860f822acd02eb44dbef16d04057ff0ca1a65bf0d33ffb38cc54c7/68747470733a2f2f696d672e736869656c64732e696f2f7477697463682f7374617475732f72617973616e353f7374796c653d666c6174266c6162656c3d547769746368266c6f676f3d747769746368" alt="抽搐状态" data-canonical-src="https://img.shields.io/twitch/status/raysan5?style=flat&amp;label=Twitch&amp;logo=twitch" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://github.com/raysan5/raylib/actions?query=workflow%3AWindows"><img src="https://github.com/raysan5/raylib/workflows/Windows/badge.svg" alt="视窗" style="max-width: 100%;"></a>
+<a href="https://github.com/raysan5/raylib/actions?query=workflow%3ALinux"><img src="https://github.com/raysan5/raylib/workflows/Linux/badge.svg" alt="Linux" style="max-width: 100%;"></a>
+<a href="https://github.com/raysan5/raylib/actions?query=workflow%3AmacOS"><img src="https://github.com/raysan5/raylib/workflows/macOS/badge.svg" alt="苹果系统" style="max-width: 100%;"></a>
+<a href="https://github.com/raysan5/raylib/actions?query=workflow%3AWebAssembly"><img src="https://github.com/raysan5/raylib/workflows/WebAssembly/badge.svg" alt="网络组装" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://github.com/raysan5/raylib/actions?query=workflow%3ACMakeBuilds"><img src="https://github.com/raysan5/raylib/workflows/CMakeBuilds/badge.svg" alt="CMake构建" style="max-width: 100%;"></a>
+<a href="https://github.com/raysan5/raylib/actions/workflows/windows_examples.yml"><img src="https://github.com/raysan5/raylib/actions/workflows/windows_examples.yml/badge.svg" alt="Windows 示例" style="max-width: 100%;"></a>
+<a href="https://github.com/raysan5/raylib/actions/workflows/linux_examples.yml"><img src="https://github.com/raysan5/raylib/actions/workflows/linux_examples.yml/badge.svg" alt="Linux 示例" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-features" class="anchor" aria-hidden="true" tabindex="-1" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有外部依赖</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，所有必需的库都</font></font><a href="https://github.com/raysan5/raylib/tree/master/src/external"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捆绑到 raylib 中</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持多个平台：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows、Linux、MacOS、RPI、Android、HTML5...等等！</font></font></strong></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 PascalCase/camelCase 表示法以纯 C 代码 (C99) 编写</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 OpenGL 进行硬件加速（</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1.1、2.1、3.3、4.3、ES 2.0、ES 3.0</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">独特的OpenGL抽象层</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（可用作独立模块）：</font></font><a href="https://github.com/raysan5/raylib/blob/master/src/rlgl.h"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rlgl</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font><font style="vertical-align: inherit;">多种</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字体格式（TTF、OTF、图像字体、AngelCode 字体）</font></font></strong><font style="vertical-align: inherit;"></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持多种纹理格式，包括</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">压缩格式</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（DXT、ETC、ASTC）</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完整的 3D 支持</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，包括 3D 形状、模型、广告牌、高度图等等！</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">灵活的材质系统，支持经典贴图和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PBR贴图</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持动画 3D 模型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（骨骼动画）（IQM、M3D、glTF）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">着色器支持，包括模型着色器和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后处理</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">着色器</font></font></li>
+<li><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于向量、矩阵和四元数运算的</font><strong><font style="vertical-align: inherit;">强大数学模块： </font></strong></font><a href="https://github.com/raysan5/raylib/blob/master/src/raymath.h"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raymath</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">音频加载和播放，支持流媒体（WAV、QOA、OGG、MP3、FLAC、XM、MOD）</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">VR 立体渲染</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持以及可配置的 HMD 设备参数</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">巨大的示例集合，包含</font></font><a href="https://github.com/raysan5/raylib/tree/master/examples"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+140 个代码示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">绑定到</font></font><a href="https://github.com/raysan5/raylib/blob/master/BINDINGS.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">超过 70 种编程语言</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免费和开源</font></font></strong></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-basic-example" class="anchor" aria-hidden="true" tabindex="-1" href="#basic-example"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基本示例</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><code>"Congrats! You created your first window!"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这是一个基本的 raylib 示例，它创建一个窗口并在屏幕中间</font><font style="vertical-align: inherit;">绘制文本。</font><font style="vertical-align: inherit;">在这里检查这个</font></font><a href="https://www.raylib.com/examples/core/loader.html?name=core_basic_window" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在网络上运行的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例。</font></font></p>
+<div class="highlight highlight-source-c notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">#include</span> <span class="pl-s">"raylib.h"</span>
 
-[![GitHub Releases Downloads](https://img.shields.io/github/downloads/raysan5/raylib/total)](https://github.com/raysan5/raylib/releases)
-[![GitHub Stars](https://img.shields.io/github/stars/raysan5/raylib?style=flat&label=stars)](https://github.com/raysan5/raylib/stargazers)
-[![GitHub commits since tagged version](https://img.shields.io/github/commits-since/raysan5/raylib/4.5.0)](https://github.com/raysan5/raylib/commits/master)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/raysan5?label=sponsors)](https://github.com/sponsors/raysan5)
-[![Packaging Status](https://repology.org/badge/tiny-repos/raylib.svg)](https://repology.org/project/raylib/versions)
-[![License](https://img.shields.io/badge/license-zlib%2Flibpng-blue.svg)](LICENSE)
+<span class="pl-smi">int</span> <span class="pl-en">main</span>(<span class="pl-smi">void</span>)
+{
+    <span class="pl-en">InitWindow</span>(<span class="pl-c1">800</span>, <span class="pl-c1">450</span>, <span class="pl-s">"raylib [core] example - basic window"</span>);
 
-[![Discord Members](https://img.shields.io/discord/426912293134270465.svg?label=Discord&logo=discord)](https://discord.gg/raylib)
-[![Subreddit Subscribers](https://img.shields.io/reddit/subreddit-subscribers/raylib?label=reddit%20r%2Fraylib&logo=reddit)](https://www.reddit.com/r/raylib/)
-[![Youtube Subscribers](https://img.shields.io/youtube/channel/subscribers/UC8WIBkhYb5sBNqXO1mZ7WSQ?style=flat&label=Youtube&logo=youtube)](https://www.youtube.com/c/raylib)
-[![Twitch Status](https://img.shields.io/twitch/status/raysan5?style=flat&label=Twitch&logo=twitch)](https://www.twitch.tv/raysan5)
+    <span class="pl-k">while</span> (!<span class="pl-en">WindowShouldClose</span>())
+    {
+        <span class="pl-en">BeginDrawing</span>();
+            <span class="pl-en">ClearBackground</span>(<span class="pl-c1">RAYWHITE</span>);
+            <span class="pl-en">DrawText</span>(<span class="pl-s">"Congrats! You created your first window!"</span>, <span class="pl-c1">190</span>, <span class="pl-c1">200</span>, <span class="pl-c1">20</span>, <span class="pl-c1">LIGHTGRAY</span>);
+        <span class="pl-en">EndDrawing</span>();
+    }
 
-[![Windows](https://github.com/raysan5/raylib/workflows/Windows/badge.svg)](https://github.com/raysan5/raylib/actions?query=workflow%3AWindows)
-[![Linux](https://github.com/raysan5/raylib/workflows/Linux/badge.svg)](https://github.com/raysan5/raylib/actions?query=workflow%3ALinux)
-[![macOS](https://github.com/raysan5/raylib/workflows/macOS/badge.svg)](https://github.com/raysan5/raylib/actions?query=workflow%3AmacOS)
-[![WebAssembly](https://github.com/raysan5/raylib/workflows/WebAssembly/badge.svg)](https://github.com/raysan5/raylib/actions?query=workflow%3AWebAssembly)
+    <span class="pl-en">CloseWindow</span>();
 
-[![CMakeBuilds](https://github.com/raysan5/raylib/workflows/CMakeBuilds/badge.svg)](https://github.com/raysan5/raylib/actions?query=workflow%3ACMakeBuilds)
-[![Windows Examples](https://github.com/raysan5/raylib/actions/workflows/windows_examples.yml/badge.svg)](https://github.com/raysan5/raylib/actions/workflows/windows_examples.yml)
-[![Linux Examples](https://github.com/raysan5/raylib/actions/workflows/linux_examples.yml/badge.svg)](https://github.com/raysan5/raylib/actions/workflows/linux_examples.yml)
-
-features
---------
-  - **NO external dependencies**, all required libraries are [bundled into raylib](https://github.com/raysan5/raylib/tree/master/src/external)
-  - Multiple platforms supported: **Windows, Linux, MacOS, RPI, Android, HTML5... and more!**
-  - Written in plain C code (C99) using PascalCase/camelCase notation
-  - Hardware accelerated with OpenGL (**1.1, 2.1, 3.3, 4.3, ES 2.0, ES 3.0**)
-  - **Unique OpenGL abstraction layer** (usable as standalone module): [rlgl](https://github.com/raysan5/raylib/blob/master/src/rlgl.h)
-  - Multiple **Fonts** formats supported (TTF, OTF, Image fonts, AngelCode fonts)
-  - Multiple texture formats supported, including **compressed formats** (DXT, ETC, ASTC)
-  - **Full 3D support**, including 3D Shapes, Models, Billboards, Heightmaps and more! 
-  - Flexible Materials system, supporting classic maps and **PBR maps**
-  - **Animated 3D models** supported (skeletal bones animation) (IQM, M3D, glTF)
-  - Shaders support, including model shaders and **postprocessing** shaders
-  - **Powerful math module** for Vector, Matrix and Quaternion operations: [raymath](https://github.com/raysan5/raylib/blob/master/src/raymath.h)
-  - Audio loading and playing with streaming support (WAV, QOA, OGG, MP3, FLAC, XM, MOD)
-  - **VR stereo rendering** support with configurable HMD device parameters
-  - Huge examples collection with [+140 code examples](https://github.com/raysan5/raylib/tree/master/examples)!
-  - Bindings to [+70 programming languages](https://github.com/raysan5/raylib/blob/master/BINDINGS.md)!
-  - **Free and open source**
-
-basic example
---------------
-This is a basic raylib example, it creates a window and draws the text `"Congrats! You created your first window!"` in the middle of the screen. Check this example [running live on web here](https://www.raylib.com/examples/core/loader.html?name=core_basic_window).
-```c
-#include "raylib.h"
+    <span class="pl-k">return</span> <span class="pl-c1">0</span>;
+}</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="#include &quot;raylib.h&quot;
 
 int main(void)
 {
-    InitWindow(800, 450, "raylib [core] example - basic window");
+    InitWindow(800, 450, &quot;raylib [core] example - basic window&quot;);
 
     while (!WindowShouldClose())
     {
         BeginDrawing();
             ClearBackground(RAYWHITE);
-            DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
+            DrawText(&quot;Congrats! You created your first window!&quot;, 190, 200, 20, LIGHTGRAY);
         EndDrawing();
     }
 
     CloseWindow();
 
     return 0;
-}
-```
-
-build and installation
-----------------------
-
-raylib binary releases for Windows, Linux, macOS, Android and HTML5 are available at the [Github Releases page](https://github.com/raysan5/raylib/releases).
-
-raylib is also available via multiple [package managers](https://github.com/raysan5/raylib/issues/613) on multiple OS distributions.
-
-#### Installing and building raylib on multiple platforms
-
-[raylib Wiki](https://github.com/raysan5/raylib/wiki#development-platforms) contains detailed instructions on building and usage on multiple platforms.
-
- - [Working on Windows](https://github.com/raysan5/raylib/wiki/Working-on-Windows)
- - [Working on macOS](https://github.com/raysan5/raylib/wiki/Working-on-macOS)
- - [Working on GNU Linux](https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux)
- - [Working on Chrome OS](https://github.com/raysan5/raylib/wiki/Working-on-Chrome-OS)
- - [Working on FreeBSD](https://github.com/raysan5/raylib/wiki/Working-on-FreeBSD)
- - [Working on Raspberry Pi](https://github.com/raysan5/raylib/wiki/Working-on-Raspberry-Pi)
- - [Working for Android](https://github.com/raysan5/raylib/wiki/Working-for-Android)
- - [Working for Web (HTML5)](https://github.com/raysan5/raylib/wiki/Working-for-Web-(HTML5))
- - [Working anywhere with CMake](https://github.com/raysan5/raylib/wiki/Working-with-CMake)
-
-*Note that the Wiki is open for edit, if you find some issues while building raylib for your target platform, feel free to edit the Wiki or open an issue related to it.*
-
-#### Setup raylib with multiple IDEs
-
-raylib has been developed on Windows platform using [Notepad++](https://notepad-plus-plus.org/) and [MinGW GCC](https://www.mingw-w64.org/) compiler but it can be used with other IDEs on multiple platforms.
-
-[Projects directory](https://github.com/raysan5/raylib/tree/master/projects) contains several ready-to-use **project templates** to build raylib and code examples with multiple IDEs.
-
-*Note that there are lots of IDEs supported, some of the provided templates could require some review, so please, if you find some issue with a template or you think they could be improved, feel free to send a PR or open a related issue.*
-
-learning and docs
-------------------
-
-raylib is designed to be learned using [the examples](https://github.com/raysan5/raylib/tree/master/examples) as the main reference. There is no standard API documentation but there is a [**cheatsheet**](https://www.raylib.com/cheatsheet/cheatsheet.html) containing all the functions available on the library a short description of each one of them, input parameters and result value names should be intuitive enough to understand how each function works. 
-
-Some additional documentation about raylib design can be found in [raylib GitHub Wiki](https://github.com/raysan5/raylib/wiki). Here are the relevant links:
-
- - [raylib cheatsheet](https://www.raylib.com/cheatsheet/cheatsheet.html)
- - [raylib architecture](https://github.com/raysan5/raylib/wiki/raylib-architecture)
- - [raylib library design](https://github.com/raysan5/raylib/wiki)
- - [raylib examples collection](https://github.com/raysan5/raylib/tree/master/examples)
- - [raylib games collection](https://github.com/raysan5/raylib-games)
-
-
-contact and networks
----------------------
-
-raylib is present in several networks and raylib community is growing everyday. If you are using raylib and enjoying it, feel free to join us in any of these networks. The most active network is our [Discord server](https://discord.gg/raylib)! :)
-
- - Webpage: [https://www.raylib.com](https://www.raylib.com)
- - Discord: [https://discord.gg/raylib](https://discord.gg/raylib)
- - Twitter: [https://www.twitter.com/raysan5](https://www.twitter.com/raysan5)
- - Twitch:  [https://www.twitch.tv/raysan5](https://www.twitch.tv/raysan5)
- - Reddit:  [https://www.reddit.com/r/raylib](https://www.reddit.com/r/raylib)
- - Patreon: [https://www.patreon.com/raylib](https://www.patreon.com/raylib)
- - YouTube: [https://www.youtube.com/channel/raylib](https://www.youtube.com/c/raylib)
-
-contributors
-------------
-
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h2 tabindex="-1" dir="auto"><a id="user-content-build-and-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#build-and-installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建和安装</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于 Windows、Linux、macOS、Android 和 HTML5 的 raylib 二进制版本可在</font></font><a href="https://github.com/raysan5/raylib/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Github 版本页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib 还可以通过多个</font><font style="vertical-align: inherit;">操作系统发行版上的多个</font></font><a href="https://github.com/raysan5/raylib/issues/613" data-hovercard-type="issue" data-hovercard-url="/raysan5/raylib/issues/613/hovercard"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包管理器使用。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-installing-and-building-raylib-on-multiple-platforms" class="anchor" aria-hidden="true" tabindex="-1" href="#installing-and-building-raylib-on-multiple-platforms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在多个平台上安装和构建 raylib</font></font></h4>
+<p dir="auto"><a href="https://github.com/raysan5/raylib/wiki#development-platforms"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib Wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含有关在多个平台上构建和使用的详细说明。</font></font></p>
+<ul dir="auto">
+<li><a href="https://github.com/raysan5/raylib/wiki/Working-on-Windows"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Windows 上工作</font></font></a></li>
+<li><a href="https://github.com/raysan5/raylib/wiki/Working-on-macOS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 macOS 上工作</font></font></a></li>
+<li><a href="https://github.com/raysan5/raylib/wiki/Working-on-GNU-Linux"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 GNU Linux 上工作</font></font></a></li>
+<li><a href="https://github.com/raysan5/raylib/wiki/Working-on-Chrome-OS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Chrome 操作系统上工作</font></font></a></li>
+<li><a href="https://github.com/raysan5/raylib/wiki/Working-on-FreeBSD"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 FreeBSD 上工作</font></font></a></li>
+<li><a href="https://github.com/raysan5/raylib/wiki/Working-on-Raspberry-Pi"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在树莓派上工作</font></font></a></li>
+<li><a href="https://github.com/raysan5/raylib/wiki/Working-for-Android"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于 Android</font></font></a></li>
+<li><a href="https://github.com/raysan5/raylib/wiki/Working-for-Web-(HTML5)"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为网络工作 (HTML5)</font></font></a></li>
+<li><a href="https://github.com/raysan5/raylib/wiki/Working-with-CMake"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 CMake 随时随地工作</font></font></a></li>
+</ul>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，Wiki 是开放编辑的，如果您在为目标平台构建 raylib 时发现一些问题，请随时编辑 Wiki 或提出与之相关的问题。</font></font></em></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-setup-raylib-with-multiple-ides" class="anchor" aria-hidden="true" tabindex="-1" href="#setup-raylib-with-multiple-ides"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用多个 IDE 设置 raylib</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib 是使用</font></font><a href="https://notepad-plus-plus.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Notepad++</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://www.mingw-w64.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MinGW GCC</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编译器在 Windows 平台上开发的，但它可以与多个平台上的其他 IDE 一起使用。</font></font></p>
+<p dir="auto"><a href="https://github.com/raysan5/raylib/tree/master/projects"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Projects 目录</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含多个即用型</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目模板，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于使用多个 IDE 构建 raylib 和代码示例。</font></font></p>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，支持很多 IDE，其中一些提供的模板可能需要一些审查，因此，如果您发现模板存在问题或者您认为它们可以改进，请随时发送 PR 或打开相关问题。</font></font></em></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-learning-and-docs" class="anchor" aria-hidden="true" tabindex="-1" href="#learning-and-docs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">学习和文档</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib 旨在以</font></font><a href="https://github.com/raysan5/raylib/tree/master/examples"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为主要参考进行学习。</font><font style="vertical-align: inherit;">没有标准的 API 文档，但有一个</font></font><a href="https://www.raylib.com/cheatsheet/cheatsheet.html" rel="nofollow"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">备忘单</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，其中包含库中可用的所有函数，每个函数的简短描述、输入参数和结果值名称应该足够直观，以便理解每个函数的工作原理。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/raysan5/raylib/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关 raylib 设计的一些其他文档可以在raylib GitHub Wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中找到</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">以下是相关链接：</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.raylib.com/cheatsheet/cheatsheet.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib 备忘单</font></font></a></li>
+<li><a href="https://github.com/raysan5/raylib/wiki/raylib-architecture"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib架构</font></font></a></li>
+<li><a href="https://github.com/raysan5/raylib/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib库设计</font></font></a></li>
+<li><a href="https://github.com/raysan5/raylib/tree/master/examples"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib 示例集合</font></font></a></li>
+<li><a href="https://github.com/raysan5/raylib-games"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib 游戏合集</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contact-and-networks" class="anchor" aria-hidden="true" tabindex="-1" href="#contact-and-networks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系方式和网络</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib 存在于多个网络中，并且 raylib 社区每天都在增长。</font><font style="vertical-align: inherit;">如果您正在使用 raylib 并且喜欢它，请随时加入我们的任何一个网络。</font><font style="vertical-align: inherit;">最活跃的网络是我们的</font></font><a href="https://discord.gg/raylib" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Discord 服务器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font><font style="vertical-align: inherit;">:)</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网页： https: </font></font><a href="https://www.raylib.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.raylib.com</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不和谐： https: </font></font><a href="https://discord.gg/raylib" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//discord.gg/raylib</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推特：https: </font></font><a href="https://www.twitter.com/raysan5" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.twitter.com/raysan5</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">抽搐：   https: </font></font><a href="https://www.twitch.tv/raysan5" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.twitch.tv/raysan5</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reddit：   https: </font></font><a href="https://www.reddit.com/r/raylib" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.reddit.com/r/raylib</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Patreon： https: </font></font><a href="https://www.patreon.com/raylib" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.patreon.com/raylib</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YouTube：</font></font><a href="https://www.youtube.com/c/raylib" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://www.youtube.com/channel/raylib</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributors" class="anchor" aria-hidden="true" tabindex="-1" href="#contributors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献者</font></font></h2>
 <a href="https://github.com/raysan5/raylib/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=raysan5/raylib&max=500&columns=20&anon=1" />
+  <img src="https://camo.githubusercontent.com/65a7b45bb838b3313601d1237f6079024e63870686fa56d1363ad25126f12826/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f7265706f3d72617973616e352f7261796c6962266d61783d35303026636f6c756d6e733d323026616e6f6e3d31" data-canonical-src="https://contrib.rocks/image?repo=raysan5/raylib&amp;max=500&amp;columns=20&amp;anon=1" style="max-width: 100%;">
 </a>
-
-license
--------
-
-raylib is licensed under an unmodified zlib/libpng license, which is an OSI-certified, BSD-like license that allows static linking with closed source software. Check [LICENSE](LICENSE) for further details.
-
-raylib uses internally some libraries for window/graphics/inputs management and also to support different file formats loading, all those libraries are embedded with and are available in [src/external](https://github.com/raysan5/raylib/tree/master/src/external) directory. Check [raylib dependencies LICENSES](https://github.com/raysan5/raylib/wiki/raylib-dependencies) on [raylib Wiki](https://github.com/raysan5/raylib/wiki) for details.
+<h2 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib 根据未经修改的 zlib/libpng 许可证获得许可，该许可证是经过 OSI 认证、类似 BSD 的许可证，允许与闭源软件进行静态链接。</font><font style="vertical-align: inherit;">检查</font></font><a href="/raysan5/raylib/blob/master/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解更多详细信息。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib 在内部使用一些库进行窗口/图形/输入管理，并支持不同的文件格式加载，所有这些库都嵌入在</font></font><a href="https://github.com/raysan5/raylib/tree/master/src/external"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">src/external 目录中并可在 src/external</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录中使用。</font><font style="vertical-align: inherit;">检查</font><a href="https://github.com/raysan5/raylib/wiki"><font style="vertical-align: inherit;">raylib Wiki</font></a><font style="vertical-align: inherit;">上的</font></font><a href="https://github.com/raysan5/raylib/wiki/raylib-dependencies"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">raylib 依赖项 LICENSES</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解详细信息。</font></font><a href="https://github.com/raysan5/raylib/wiki"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p>
+</article></div>
